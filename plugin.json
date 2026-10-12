@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "runesmith.data",
+  "name": "Data and Config Languages",
+  "version": "0.1.0",
+  "summary": "Highlighting, comments and brackets for JSON, JSON with Comments, YAML, XML, XSL, INI, Properties and SQL.",
+  "authors": [
+    "Dylan de Beer"
+  ],
+  "license": "Apache-2.0",
+  "repository": "https://github.com/RunesmithHub/plugin-data",
+  "runesmithApi": "^0.2.0",
+  "projects": {
+    "contracts": "src/Runesmith.DataLanguages.Contracts/Runesmith.DataLanguages.Contracts.csproj",
+    "implementation": "src/Runesmith.DataLanguages/Runesmith.DataLanguages.csproj"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Languages"
+  ],
+  "keywords": [
+    "json",
+    "jsonc",
+    "yaml",
+    "yml",
+    "xml",
+    "xsl",
+    "ini",
+    "properties",
+    "sql",
+    "conf"
+  ]
+}
